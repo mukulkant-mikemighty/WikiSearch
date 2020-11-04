@@ -1,0 +1,4 @@
+<!--><input (input)="term=$event.target.value"/>//////if we write this; then we need not write a function- onInput() <-->
+<form (submit)="onFormSubmit($event)">
+    <input (input)="onInput($event.target.value)"/>
+</form>
